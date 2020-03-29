@@ -1,0 +1,284 @@
+body{
+	background:#f4f4f4;
+	margin:0;
+	padding:0;
+	font-family:cambria;
+	font-size:18px;
+}
+
+/*  Global */
+
+.container{
+	width:90%;
+	margin:auto;
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+
+/* Head */
+
+#head{
+	background:#555;
+	padding:10px;
+	color:#fff;
+	position:sticky;
+	top:0;
+}
+nav ul li{
+	display:inline;
+	padding:0 5px;
+}
+nav{
+	float:right;
+	margin-top:-60px;
+}
+nav ul li a{
+	color:#fff;
+	text-transform:uppercase;
+}
+nav ul li a:hover{
+	font-weight:bold;
+	color:#f99;
+}
+.current{
+	font-weight:bold;
+	color:#f99;
+}
+
+
+/* Case */
+
+#case{
+	min-height:200px;
+	text-align:center;
+	background:#147;
+	padding:20px;
+	color: #fff;
+}
+#case h2{
+	font-size:50px;
+	font-weight:45px;
+	text-transform:capitalize;
+}
+#case p{
+	font-size:30px;
+	font-weight:18px;
+}
+
+/*  Navigation */
+
+#navigation{
+	background:#f9f;
+	padding:20px;
+}
+#navigation h2{
+	text-transform: capitalize;
+}
+.subscribe{
+	float:right;
+	margin-top:-50px;
+}
+.nav h2{
+	color:#fff;
+}
+.subscribe input{
+	padding:15px;
+	border:none;
+	outline:none;
+}
+.subscribe button{
+	padding:10px 15px;
+	border:none;
+	background:#f66;
+	color:#fff;
+	outline: none;
+}
+.subscribe button:hover{
+	background:#f69;
+}
+
+/*  Boxes  */
+
+.boxes{
+	width: 90%;
+	margin:auto;
+	display:flex;
+	text-align: center;
+	padding: 10px 20px;
+}
+.box-2{
+	padding:0 20px;
+}
+
+/*  About  */
+
+#about{
+	width:90%;
+	margin:auto;
+}
+.article-bar{
+	width:50%;
+}
+.side-bar{
+	width:44%;
+	float:right;
+	margin-top:-31%;
+}
+
+
+/* services */
+
+#services{
+	width:90%;
+	margin:auto;
+}
+.service-nav-bar{
+	list-style-type:none;
+}
+.service-nav-bar h1{
+	margin-left:35px;
+}
+ .nav-ul{
+	 background:#654;
+	 padding:10px;
+	 color:#fff;
+	 margin-bottom:15px;
+ }
+
+ /* Contacts */
+#contacts{
+	width:80%;
+	margin:auto;
+}
+.contact-list a:hover{
+	text-decoration:underline;
+	color:teal;
+}
+/*  Footer */
+
+#background{
+	background:#f66;
+	padding:10px;
+}
+#foot{
+	display:flex;
+	width:80%;
+	margin: auto;
+}
+#foot li{
+	list-style-type:none;
+}
+#foot li a{
+    color:#fff;
+}
+#foot li a:hover{
+	color:#333;
+}
+.foot-2{
+	padding:0 10%;
+}
+.foot-3{
+	padding:0 10% 0 5%;
+}
+.copy{
+	background:#f69;
+	color:#fff;
+	padding:20px;
+	text-align:center;
+	margin:0;
+}
+
+
+@media(max-width:700px){
+	.head h1{
+		font-size:20px;
+	}
+	#head{
+		padding:5px;
+	}
+	nav ul li{
+		display:inline;
+		padding:0 3px;
+	}
+	nav{
+		float:none;
+		margin-top: 6px;
+		margin-left: -22px;
+	}
+	nav ul li a{
+		text-transform:capitalize;
+	}
+
+    #case{
+		min-height: auto;
+		padding:6px;
+	}
+	#case h2{
+		font-size:16px;
+		font-weight:16px;
+		text-transform:capitalize;
+	}
+	#case p{
+		font-size:14px;
+		font-weight:14px;
+	}
+
+	#navigation h2{
+		font-size: 18px;
+	}
+	.subscribe{
+		float:none;
+		margin-top:8px;
+	}
+	.subscribe input{
+		padding:6px;
+	}
+	.subscribe button{
+		padding:4px 8px;
+		margin-top: 8px;
+	}
+	
+	.boxes{
+		display:block;
+		padding:6px;
+	}
+	.boxes h2{
+		font-size:18px;
+	}
+	.boxes p{
+		font-size:17px;
+	}
+	
+	.article-bar{
+		width:100%;
+	}
+	.side-bar{
+		width:100%;
+		float:none;
+		margin-top:10px;
+	}
+    #services{
+		padding: 6px;
+		margin-left: -20px;
+	}
+    .service-nav-bar h1{
+		font-size: 22px;
+	}
+	 .nav-ul{
+		 padding:10px;
+	 }
+     .nav-ul h2{
+		 font-size:20px;
+	 }
+
+
+
+
+
+
+	#foot{
+		display:none;
+	}
+}
